@@ -1,0 +1,158 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 14 (DEFUN BOARDIMPORT NIL ...)-1|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|BOARDIMPORT| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|BOARDIMPORT|
+       #112Y(00 00 00 00 00 00 00 00 26 01 C5 0F 01 DC 38 03 72 0C 63 1B 25 87
+             01 00 14 38 01 71 FE DD 8F 14 17 DE 6B 05 6B 01 32 B1 0F 01 14 AF
+             38 01 71 FD B0 38 01 71 FE 33 04 15 83 01 AD 8D 9F 57 16 02 CB 1B
+             01 CD 14 38 01 31 90 38 04 31 82 0F 07 14 8F 08 70 6B 07 38 06 32
+             0B 0F 09 14 38 03 71 82 32 62 0F 0A 6B 09 2F 0B 6B 07 6B 0A 61 02
+             19 01)
+       (0. |COMMON-LISP-USER|::|ITEMNUM| "*" "txt"
+        #Y(|COMMON-LISP-USER|::|BOARDIMPORT-1|
+           #47Y(00 00 00 00 04 00 00 00 21 1A DA B2 38 02 31 95 B0 B2 31 90 DB
+                B2 38 02 31 95 AF B2 31 90 DC B2 31 94 AE B2 31 90 DD B2 38 02
+                31 95 9E 19 06)
+           ("data" ": " #\. " \n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*|
+        "Please input goal board by its name (e.g. test1.txt):"
+        |COMMON-LISP-USER|::|FILENAME| "Please input valid boardname:"
+        |COMMON-LISP-USER|::|FILE| |COMMON-LISP-USER|::|SIZE|
+        |COMMON-LISP|::|CLOSE|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|16 50 (DEFUN BOARDDRAW NIL ...)-2|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|BOARDDRAW| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|BOARDDRAW|
+       #310Y(00 00 00 00 00 00 00 00 26 01 DA 6B 01 33 01 15 DC 6B 03 1B 14 CA
+             1B 07 AD DE 90 01 31 77 CB 14 6B 01 96 03 33 02 15 85 01 AD AD 91
+             01 34 69 16 02 E1 6B 01 33 01 15 DC 6B 03 72 B2 1B 08 E2 6B 01 33
+             01 15 85 01 AD AD 91 01 34 72 16 02 E3 6B 01 33 01 15 DC 6B 03 1B
+             80 AE CF 1B 07 AD DE 90 01 31 77 D0 14 6B 01 96 03 33 02 15 DC 6B
+             03 1B 1F E7 6B 01 6B 0C B2 B1 73 02 01 33 02 15 1B 0E 6B 0C B0 AF
+             90 02 01 69 E8 6B 01 33 01 15 85 01 AD AD 91 01 34 6A 16 02 E9 6B
+             01 33 01 15 DC 6B 03 72 B2 1B 08 EA 6B 01 33 01 15 85 01 AD AD 91
+             01 34 72 16 02 EB 6B 01 33 01 15 1B 80 48 D7 1B 11 AD 6B 03 72 B2
+             90 01 31 FF 92 AD DE 90 01 31 6D D8 14 6B 01 96 03 33 02 15 DC 6B
+             03 1B 1F EE 6B 01 6B 0C B2 B1 73 02 01 33 02 15 1B 0E 6B 0C B0 AF
+             90 02 01 69 EF 6B 01 33 01 15 85 01 AD AD 91 01 34 6A 16 02 85 01
+             AD AD 91 01 34 FF B2 16 02 F0 6B 01 33 01 15 DC 6B 03 72 B2 1B 08
+             F1 6B 01 33 01 15 85 01 AD AD 91 01 34 72 16 02 F2 6B 01 33 01 15
+             19 01)
+       (#Y(|COMMON-LISP-USER|::|BOARDDRAW-1|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("\n
+   |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| 0. |COMMON-LISP-USER|::|*SIZE*| 9.
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-2|
+           #27Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 38
+                02 31 95 9E 19 04)
+           (#\Space " |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-3|
+           #25Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 31
+                94 9E 19 04)
+           (#\Space #\|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-4|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("\n
+ - |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-5|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("----") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-6|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("---|\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-7|
+           #27Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 38
+                02 31 95 9E 19 04)
+           (#\Space " |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-8|
+           #25Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 31
+                94 9E 19 04)
+           (#\Space #\|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP-USER|::|*BOARD*|
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-9|
+           #27Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 38
+                02 31 95 9E 19 04)
+           (#\Space " |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-10|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("   |") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-11|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("\n
+ - |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-12|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("---+") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-13|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("---|\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-14|
+           #27Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 38
+                02 31 95 9E 19 04)
+           (#\Space " |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-15|
+           #25Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 31
+                94 9E 19 04)
+           (#\Space #\|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-16|
+           #27Y(00 00 00 00 02 00 00 00 21 18 DA B0 31 94 AE B0 31 90 DB B0 38
+                02 31 95 9E 19 04)
+           (#\Space " |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-17|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("   |") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-18|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("\n
+ - |")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-19|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("----") (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BOARDDRAW-20|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("---|\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)))
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|53 74 (DEFUN BOARDREFRESH (CALC) ...)-3|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|BOARDREFRESH| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|BOARDREFRESH|
+       #239Y(00 00 00 00 01 00 00 00 26 02 92 01 0A 0E 02 0F 01 DD 6B 04 1B 80
+             5A 0E 00 0F 01 1B 74 6B 04 72 B2 97 00 1B 3F 6B 01 AE B1 91 02 01
+             0A 86 01 14 81 B2 00 1B 2F 86 00 AC 8E AE 08 6B 01 AD B1 91 02 01
+             72 AC 8E AE 1D 6B 01 6B 01 AE B2 73 02 01 AD B0 B3 AF 33 02 02 16
+             02 6B 01 AC AE B2 63 33 02 02 16 01 AD 8F AD 05 AC 8F AE FF B8 16
+             02 85 01 AD AD 91 01 34 FF A5 16 02 DD 96 00 1B 80 5B 6B 01 6B 04
+             72 B2 AF 91 02 01 0B 85 01 14 81 B1 00 1B 80 47 85 00 AC 6B 04 91
+             01 31 0B 6B 01 6B 04 72 B2 AE 91 02 01 6C AC 6B 04 91 01 31 2C DD
+             6B 04 1B 1F 6B 01 6B 01 AF B1 73 02 01 AD B0 B3 AF 33 02 02 16 02
+             6B 01 AC AF B1 63 33 02 02 16 01 85 01 AD AD 91 01 34 5B 16 02 AD
+             6B 04 72 B2 91 01 31 08 AC 6B 04 90 01 31 FF 94 00 19 04)
+       (|COMMON-LISP-USER|::|TEMP-BOARD| |COMMON-LISP-USER|::|BOARD|
+        |COMMON-LISP-USER|::|*BOARD*| 0. |COMMON-LISP-USER|::|*SIZE*|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP-USER|::|CALC|) |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))

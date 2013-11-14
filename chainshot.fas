@@ -1,0 +1,59 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 1 (LOAD "humanmode.fas")-1|
+   #15Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 19 01)
+   ("humanmode.fas" |COMMON-LISP|::|LOAD|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|2 2 (LOAD "aimode.fas")-2|
+   #15Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 19 01)
+   ("aimode.fas" |COMMON-LISP|::|LOAD|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|4 30 (DEFUN CHAINSHOT NIL ...)-3|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|CHAINSHOT| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|CHAINSHOT|
+       #173Y(00 00 00 00 00 00 00 00 26 01 DA 1B 09 DC 6B 03 DE 33 02 15 85 00
+             AC DB 91 01 34 71 16 01 DF 6B 03 33 01 15 DA 1B 09 E0 6B 03 E1 33
+             02 15 85 00 AC DB 91 01 34 71 16 01 E2 6B 03 33 01 15 E3 38 01 31
+             8E E4 38 01 31 8E E5 38 01 31 8E E6 38 01 31 8E E7 6B 03 33 01 15
+             DA 1B 16 2E 13 1B 36 2E 15 1B 32 29 00 01 FF A2 E8 6B 03 E9 33 02
+             15 85 00 AC DB 91 01 34 71 16 01 EA 38 01 31 8E 38 04 31 7F 0F 11
+             14 24 12 53 6B 11 24 14 52 F0 38 01 31 8E 28 FF 75 F1 38 01 31 8E
+             38 04 31 7F 0F 18 14 24 19 FF BE F4 38 01 31 8E 02 19 01)
+       (0. 100.
+        #Y(|COMMON-LISP-USER|::|CHAINSHOT-1|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| "*"
+        #Y(|COMMON-LISP-USER|::|CHAINSHOT-2|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("\n
+Welcome to ChainShot Game!\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|CHAINSHOT-3|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "*"
+        #Y(|COMMON-LISP-USER|::|CHAINSHOT-4|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("\n
+How to play:\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "1. The goal is to clear all the beads"
+        "2. You may only clear 3 or more beads at a time"
+        "3. Only beads that are immediately adjacent to each other may be cleared"
+        "4. Make a move by inputing the horizontal and vertical coordinators"
+        #Y(|COMMON-LISP-USER|::|CHAINSHOT-5|
+           #16Y(00 00 00 00 01 00 00 00 21 17 AE 31 97 9E 19 03) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|CHAINSHOT-6|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "*" "Please select AI mode or Human mode: [a/h]"
+        |COMMON-LISP-USER|::|MODE| |COMMON-LISP-USER|::|A|
+        |COMMON-LISP-USER|::|AI-MODE| |COMMON-LISP-USER|::|H|
+        |COMMON-LISP-USER|::|HUMAN-MODE| "Illegan Choice!" "Play Again? [y/n]"
+        |COMMON-LISP-USER|::|MOREGAME| |COMMON-LISP-USER|::|Y| "Bye!")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
